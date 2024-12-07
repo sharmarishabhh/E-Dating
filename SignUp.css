@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .left-section {
+    flex: 1;
+    background-color: #fce4ec;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .left-section .heart-image {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .left-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section h1 {
+    font-size: 28px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .right-section h3 {
+    font-size: 16px;
+    color: #888;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .right-section label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .right-section input[type="text"],
+  .right-section input[type="email"],
+  .right-section input[type="password"],
+  .right-section input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .right-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .right-section button:hover {
+    background-color: #d81b60;
+  }
+  
+  .right-section p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .right-section a {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  
+  .right-section a:hover {
+    text-decoration: underline;
+  }
+   

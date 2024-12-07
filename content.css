@@ -1,0 +1,146 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 1500px;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 20px;
+  }
+  
+  /* Header Section */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  .profile-header p {
+    margin-top: 5px;
+    color: #6b7280;
+    font-size: 0.95rem;
+  }
+  
+  /* Grid Layout for Content */
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .content-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+  
+  /* Section Cards */
+  .section-card {
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+  }
+  
+  .section-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .section-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ec4899;
+    box-shadow: 0 0 0 2px rgba(236, 72, 153, 0.3);
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.primary {
+    background-color: #ec4899;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  button.primary:hover {
+    background-color: #db2777;
+  }
+  
+  button.secondary {
+    background-color: #d1d5db;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  button.secondary:hover {
+    background-color: #9ca3af;
+  }
+  
+  /* Button Group for Block and Report */
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  

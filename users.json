@@ -1,0 +1,51 @@
+[
+    {
+      "uid": "user1",
+      "name": "Alice",
+      "age": 25,
+      "sex": "f",
+      "body_type": "fit",
+      "diet": "vegetarian",
+      "drinks": "occasionally",
+      "smokes": "no",
+      "sign": "leo",
+      "interests": ["Yoga", "Movies", "Photography"],
+      "hobbies": ["Reading", "Traveling", "Fitness"],
+      "habits": ["Early riser", "Non-smoker", "Loves pets"],
+      "religion": "agnostic",
+      "essay0": "I love traveling and exploring new places."
+    },
+    {
+      "uid": "user2",
+      "name": "Bob",
+      "age": 28,
+      "sex": "m",
+      "body_type": "average",
+      "diet": "strictly anything",
+      "drinks": "socially",
+      "smokes": "sometimes",
+      "sign": "gemini",
+      "interests": ["Football", "Cooking", "Music"],
+      "hobbies": ["Guitar", "Road Trips", "Camping"],
+      "habits": ["Night owl", "Occasional smoker", "Loves animals"],
+      "religion": "atheist",
+      "essay0": "I'm passionate about music and love long road trips."
+    },
+    {
+      "uid": "user3",
+      "name": "Charlie",
+      "age": 30,
+      "sex": "m",
+      "body_type": "a little extra",
+      "diet": "vegan",
+      "drinks": "never",
+      "smokes": "no",
+      "sign": "aries",
+      "interests": ["Technology", "AI", "Gaming"],
+      "hobbies": ["Coding", "Reading Sci-Fi", "Gaming"],
+      "habits": ["Non-smoker", "Early riser", "Introverted"],
+      "religion": "christian",
+      "essay0": "Tech enthusiast who loves coding and reading."
+    }
+  ]
+  

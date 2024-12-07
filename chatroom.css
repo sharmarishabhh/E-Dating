@@ -1,0 +1,15 @@
+.chat{
+    height: 600px;
+}
+
+.backgroundc{
+
+    background-image: url('C:\Users\asus\OneDrive\Documents\dating\dating-app\src\Chatroom\bg_dating.jpg');
+    background-position: center;
+    
+}
+
+.heading{
+    color:#013B52;
+    font-family: cursive;
+}

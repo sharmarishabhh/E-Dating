@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .main-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Upper Navbar Styles */
+  .upper-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec4899; /* Top navbar color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .upper-navbar h1 {
+    margin: 0;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Content Area */
+  .content-area {
+    display: flex;
+    flex: 1; /* Allows the content area to expand */
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li.active {
+    font-weight: bold;
+    color: #ec4899; /* Highlight color for active link */
+  }
+  
+  /* Profile Section Styles */
+  .profile-section {
+    flex: 1; /* Expands to fill the remaining space */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* Space between sidebar and profile section */
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-status {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .completion {
+    color: #4caf50; /* Green color for completion status */
+  }
+  
+  .upgrade-plan {
+    padding: 10px 15px;
+    background-color: #ec4899; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Match Card Styles */
+  .match-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 750px; /* Adjust height for a square card */
+    overflow: hidden;
+  }
+  
+  .card-content {
+    flex-grow: 1; /* Allow card content to take available space */
+    text-align: center;
+  }
+  
+  .match-image {
+    width: 900px; /* Set a fixed size for images */
+    height: 350px; /* Set a fixed size for images */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .left {
+    margin-right: 20px; /* Space between button and card */
+  }
+  
+  .right {
+    margin-left: 20px; /* Space between button and card */
+  }
+  
+  /* Profile Card Styles */
+  .profile-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .profile-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .profile-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
